@@ -12,9 +12,6 @@
 
 ```bash
 git clone https://github.com/Shahryar-Sohail/portfolio
-### ✅ How to Use:
-
-```bash
 cd portfolio
 npm install
 npm run dev
