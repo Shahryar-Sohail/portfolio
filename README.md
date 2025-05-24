@@ -19,5 +19,6 @@ cd portfolio
 npm install
 npm run dev
 
+## ▶️ Screen Shots
 ![Screenshot](./2.png)
 ![Screenshot](./1.png)
