@@ -10,7 +10,7 @@
 
 ## ▶️ To Run This Project
 
-```bash
+
 git clone https://github.com/Shahryar-Sohail/portfolio
 cd portfolio
 npm install
