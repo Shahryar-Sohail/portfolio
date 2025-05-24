@@ -1,8 +1,9 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import countryAtlas from '../../assets/countryAtlas.png';
+import sms from '../../assets/sms.png';
+import dashboard from '../../assets/dashboard.png';
+import grook from '../../assets/grook.png';
+import crudify from '../../assets/crudify.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +12,34 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={countryAtlas}
+          link="https://shahryar-sohail.github.io/CountryAtlas/"
+          h3="Country Atlas"
+          p="Country Information App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={sms}
+          link="https://shahryar-sohail.github.io/StudentManagementSystem/index.html"
+          h3="Management System"
+          p="Student Management"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={dashboard}
+          link="https://github.com/Shahryar-Sohail/Dashboard"
+          h3="Store Dashboard"
+          p="E-commerce Dashboard"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={grook}
+          link="https://github.com/Shahryar-Sohail/GrookAcademy"
+          h3="Grook Academy"
+          p="Academy"
+        />
+        <ProjectCard
+          src={crudify}
+          link="https://github.com/Shahryar-Sohail/Crudify"
+          h3="Crudify"
+          p="Employee Management"
         />
       </div>
     </section>
