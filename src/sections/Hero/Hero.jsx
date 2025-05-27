@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/shahryar_cv.pdf';
+import shahryar_cv from '../../assets/shahryar_cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -53,7 +53,7 @@ function Hero() {
           With a passion for developing modern Full Stack Web apps for commercial
           businesses.
         </p>
-        <a href={CV} download>
+        <a href={shahryar_cv} download>
           <button className="hover">Resume</button>
         </a>
       </div>
