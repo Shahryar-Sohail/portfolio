@@ -6,7 +6,7 @@ import Meteors from "@/components/ui/meteors";
 import PortfolioPage from "@/pages/About/About";
 import SparklesText from "@/components/ui/sparkles-text";
 import { FlipWords } from "@/components/ui/flip-words";
-import resume from "../../assets/resume/ShahryarResume.pdf";
+import resume from "../../assets/resume/Shahryar_Sohail_CV.pdf";
 
 // Grid Background - Replacing the HexagonBackground
 const GridBackground = () => {
@@ -162,9 +162,9 @@ const profile = {
             style={{
               paddingTop:
                 window.innerWidth >= 1360 &&
-                window.innerWidth <= 1370 &&
-                window.innerHeight >= 760 &&
-                window.innerHeight <= 775
+                  window.innerWidth <= 1370 &&
+                  window.innerHeight >= 760 &&
+                  window.innerHeight <= 775
                   ? "12rem"
                   : "",
             }}
@@ -225,7 +225,7 @@ const profile = {
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
                     <span className="relative flex items-center justify-center gap-2 text-white font-medium">
-                      <span>Learn More</span>
+                      <span>GitHub</span>
                       <i className="fas fa-arrow-right transform transition-all duration-300 group-hover:translate-x-1"></i>
                     </span>
                   </span>
