@@ -141,9 +141,7 @@ You will need to download **Git** and **Node** to run this project.
 
 # Getting Started 🎯
 
-### Fork and Clone the Repository 🚀
-1. Click the **Fork** button at the top-right corner of the page to create your own copy of the repository.
-2. After forking, open your terminal and run the following commands to clone the repo:
+### Clone the Repository 🚀
 
   ```bash
   git clone https://github.com/Shahryar-Sohail/portfolio.git
